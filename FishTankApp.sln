@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5500802A-9ED8-4D54-9325-747BC1D0C9F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{05ACB53A-571F-41F8-BAD8-EDFC79D7A92F}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FishTankApp", "src\FishTankApp\FishTankApp.xproj", "{4B3B444A-F404-45C9-85D7-7D5F5B22A625}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B3B444A-F404-45C9-85D7-7D5F5B22A625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B3B444A-F404-45C9-85D7-7D5F5B22A625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B3B444A-F404-45C9-85D7-7D5F5B22A625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B3B444A-F404-45C9-85D7-7D5F5B22A625}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B3B444A-F404-45C9-85D7-7D5F5B22A625} = {5500802A-9ED8-4D54-9325-747BC1D0C9F1}
+	EndGlobalSection
+EndGlobal
