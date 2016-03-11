@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <environment names="Development">
+        <link asp-href-include="~/css/*.css" rel="stylesheet" />
+    </environment>
+    <environment names="Staging, Production">
+        <link asp-href-include="~/css/min/*.min.css" rel="stylesheet" />
+    </environment>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-default navbar-static-top bottom-0"
+             role="navigation">
+            <div class="navbar-header">
+                <div class="navbar-brand">My Fish Tank</div>
+            </div>
+            <img src="~/img/goldfish.png" alt="Goldfish Background"
+                 height="50" width="1000"
+                 asp-append-version="true" />
+        </nav>
+        <environment names="Development">
+            <script asp-href-include="~/js/*.js"></script>
+        </environment>
+        <environment names="Staging, Production">
+            <script asp-href-include="~/js/min/*.min.js"></script>
+        </environment>
+        @RenderBody()
+    </div>
+</body>
+</html>

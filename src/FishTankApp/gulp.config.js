@@ -16,6 +16,7 @@
         sbAdminCss: bower.directory + 'startbootstrap-sb-admin-2/dist/css/sb-admin-2.css',
         fontAwesomeCss: bower.directory + 'font-awesome/css/font-awesome.css',
         morrisCss: bower.directory + 'morrisjs/morris.css',
+        myCss: webroot + 'css/mystyle.css',
         // JS LIBS
         jqueryJs: bower.directory + 'jquery/dist/jquery.js',
         raphaelJs: bower.directory + 'raphael/raphael.js',
@@ -25,7 +26,7 @@
         // DEST
         jsDest: webroot + 'js',
         cssDest: webroot + 'css',
-        fontDest: webroot + 'fonts'
+        fontDest: webroot + 'fonts'       
         
     };
 

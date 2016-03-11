@@ -28,7 +28,7 @@ gulp.task('copy:js', function() {
 
 gulp.task('min:css', function () {
     return gulp
-        .src([paths.bootstrapCss, paths.sbAdminCss, paths.fontAwesomeCss, paths.morrisCss])
+        .src([paths.bootstrapCss, paths.sbAdminCss, paths.fontAwesomeCss, paths.morrisCss, paths.myCss])
         .pipe(concat(paths.cssDest + '/min/site.min.css'))
         .pipe(cssmin())
         .pipe(gulp.dest('.'));
